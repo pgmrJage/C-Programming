@@ -1,0 +1,9 @@
+#include <iostream> /*This is the Standard declaration in C++ Programming*/
+using namespace std;
+
+int main ()
+{
+  cout << "Hello, World"; /* syntax "cout" refer to console out which means it prints the string inside the double quotation "" */
+
+  return 0;
+}
