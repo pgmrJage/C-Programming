@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  /* you can declare also in this format: "int num1, num2" */
+  int num1;
+  int num2;
+    
+    
+//THIS IS THE USER INPUT SECTION
+  cout << "Input first num: <<endl;     /* syntax "endl" represent new line */
+  cin >> num1;                          /* syntax "cin" represent console in which the user input any whole number, since the declaration is a integer "int" */
+  cout << "Input second num:  <<endl;
+  cin >> num2;
+
+ //THIS IS THE OUTPUT SECTION
+  cout << "The First Number is   :  "<<endl;
+  cout << "The Second Number is   :  "<<endl;
+  
+  
+return 0;
+
+}
